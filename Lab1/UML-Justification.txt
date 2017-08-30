@@ -1,0 +1,10 @@
+My UML diagram for the hospital set up is pretty simple.
+
+I assumed that this will be a generic diagram, more for database relationships than anything else, and I also assumed that the data types aren't necessary and are implied (for instance, an ID will usually either be a GUID or INT, where as a Name will be a Varchar, etc). 
+
+I also assumed that there are other objects that are not available in the diagram, such as a Department object that would contain a department id. Hospital can also be broken up further by referencing another table with department specific phone numbers, etc. There is a lot that I left out of this as it seemed like it was beyond the scope of the assignment. 
+
+For this example I am assuming there can be multiple hospitals, each hospital can have many persons either working for it or visiting as patients. Since a hospital requires staff to operate there has to be at least 1 Doctor and 1 employee working there, and the hospital must also have a ward and the doctor's will have to be on some sort of a team. 
+
+The relationship lines are just there to illustrate references to one another. These can be better illustrated if they were further broken up into more subclasses, but again I am not sure how in-depth this assignment wanted to be with the UML. 
+
