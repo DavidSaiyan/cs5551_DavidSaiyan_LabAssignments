@@ -9,7 +9,7 @@
         .when('/login', {
             templateUrl: 'app/pages/login.controller.html',
             controller: 'Login as vm'
-        }).when('/', {
+        }).when('/register', {
             templateUrl: 'app/pages/register.controller.html',
             controller: 'Register as vm'
         }).when('/home', {
@@ -20,7 +20,7 @@
             controller: 'Main as vm'
         })
         .otherwise({
-            redirectTo: '/'
+            redirectTo: '/login'
         });
         //$locationProvider.html5Mode(true);
     }]);

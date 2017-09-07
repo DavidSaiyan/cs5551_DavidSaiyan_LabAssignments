@@ -12,6 +12,8 @@
         var map;
         var mapOptions;
 
+        var vm  = this;
+
         $scope.initialize = function () {
             navigator.geolocation.getCurrentPosition(function (position) {
 
@@ -27,10 +29,16 @@
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
 
+
+                var trafficLayer = new google.maps.TrafficLayer();
+                trafficLayer.setMap(map);
+
                 var marker = new google.maps.Marker({
                     position: pos,
                     map: map
                 });
+
+
             });
         };
 

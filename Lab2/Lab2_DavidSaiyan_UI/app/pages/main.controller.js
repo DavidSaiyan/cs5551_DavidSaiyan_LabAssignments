@@ -10,9 +10,5 @@
     function main($scope, $http, $log) {
         var vm = this;
 
-
-        $log.debug("[Loaded Main Controller]");
-
-
     }
 })();

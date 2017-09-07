@@ -17,6 +17,9 @@
     margin: 20px;
     align-content: left;
 }
+.error {
+    color: red;
+}
 
 .map_text {
     margin: 24px;
@@ -29,6 +32,9 @@
     align-content: center;
 }
 
+.margin{
+    margin: 20px;
+}
 .menu_row {
     padding-top: 10px;
     height: 55px;

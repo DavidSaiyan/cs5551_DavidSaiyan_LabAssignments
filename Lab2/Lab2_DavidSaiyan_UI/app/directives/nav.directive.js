@@ -10,18 +10,17 @@
     function navigation($window, baseUrl) {
         return {
             restrict: 'E',
-            scope: {
-              loggedIn: '=isLoggedIn'
-            },
             templateUrl: 'app/directives/nav.directive.html',
             link: link
         };
 
         function link(scope){
 
-            scope.fname = 'David';
-            scope.lname = 'Saiyan';
-            scope.password = ''
+            var localStore = window.localStorage;
+
+            scope.loggedIn = localStore.getItem("LoginStatus");
+            scope.fname = localStore.getItem("FirstName");
+            scope.lname = localStore.getItem("LastName");
 
             scope.menuItems = [
                 {Text:  'Login',    Url: 'login'},
@@ -36,6 +35,12 @@
 
             scope.getFullName = function() {
                 return scope.fname + " " + scope.lname;
+            }
+
+            scope.signOut = function(){
+                localStore.removeItem('LoginStatus');
+                scope.loggedIn = 0;
+                scope.navigate('login');
             }
 
         }
