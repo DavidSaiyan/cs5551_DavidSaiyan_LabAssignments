@@ -1,0 +1,19 @@
+﻿<div>
+    <menu-nav is-logged-in="false"></menu-nav>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="login_box">
+                <div class="row login-spacing">
+                    <div class="col-md-1"> Username: </div> <div class="col-md-2"> <input type="text" name="firstName" id="firstName" data-ng-model="vm.fname"/></div>
+                </div>
+                <div class="row login-spacing">
+                    <div class="col-md-1">  Password: </div> <div class="col-md-2"> <input type="password" name="password" id="password" data-ng-model="vm.password"/></div>
+                </div>
+                <div class="row">
+                <button type="button" class="btn btn-default menu_item" ng-click="vm.login(vm.username, vm.pass)">Login</button>
+                <button type="button" class="btn btn-default menu_item" ng-click="vm.navigate('register')">Register</button>
+                </div>
+            <br/>
+        </div></div>
+    </div>
+</div>

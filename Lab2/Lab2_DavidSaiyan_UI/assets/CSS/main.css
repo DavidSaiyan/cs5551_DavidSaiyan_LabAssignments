@@ -1,0 +1,72 @@
+﻿/* Page Header */
+.sign_out {
+    margin-right: 20px;
+}
+.login_box {
+    align-content: center;
+    margin-left: 40%;
+    margin-top:100px;
+}
+.menu_item {
+    width: 150px;
+    align-content: center;
+    margin-left: 10px;
+}
+
+.login-spacing{
+    margin: 20px;
+    align-content: left;
+}
+
+.map_text {
+    margin: 24px;
+    font-size: 23px;
+    font-weight: bolder;
+    color: dodgerblue;
+}
+
+.centered {
+    align-content: center;
+}
+
+.menu_row {
+    padding-top: 10px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.map-canvas {
+    width: 1280px;
+    height: 720px;
+}
+
+
+.weatherModule {
+    background:#f2f2f2;
+    height:150px;
+    width:250px;
+    border: 1px dashed #ccc;
+    padding: 1em;
+}
+
+
+.currentConditions {
+    float: left;
+}
+.weatherModule {
+    padding: 1em;
+}
+
+.currentIcon {
+    float: left;
+    margin: 0 .75em;
+}
+
+span{ float:right; }
+
+#cash_flow, #cr{ color: #2F705c; }
+
+#dr{ color: #FF0000; }
