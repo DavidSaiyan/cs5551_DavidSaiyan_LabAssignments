@@ -1,20 +1,21 @@
 ﻿<div>
-    <menu-nav></menu-nav>
     <div class="row">
         <div class="col-md-12">
             <div class="login_box">
+                <div class="row error login-spacing" ng-if="vm.errorMsg"> Invalid Login, Please Try Again. </div>
                 <div class="row login-spacing">
                     <div class="col-md-1"> Username: </div> <div class="col-md-2"> <input type="text" name="firstName" id="firstName" data-ng-model="vm.username"/></div>
                 </div>
                 <div class="row login-spacing">
                     <div class="col-md-1">  Password: </div> <div class="col-md-2"> <input type="password" name="password" id="password" data-ng-model="vm.password"/></div>
                 </div>
-                <div class="row error login-spacing" ng-if="vm.errorMsg"> Invalid Login, Please Try Again. </div>
+                <div class="row login-spacing">
+                    Don't have an account? <a href="" ng-click="vm.navigate('register')"> Register. </a>  Or login using your social media account.
+                </div>
                 <div class="row">
-                <button type="button" class="btn btn-default login_buttons" ng-click="vm.login(vm.username, vm.password)">Login</button>
-                <button type="button" class="btn btn-default login_buttons" ng-click="vm.navigate('register')">Register</button>
-                    </div>
-            <br/>
+                    <button type="button" class="btn btn-default login_buttons" ng-click="vm.login(vm.username, vm.password)">Login</button>
+                    <button g-login class="btn btn-default login_buttons" type="button">Google Login</button>
+                </div>
         </div></div>
     </div>
 </div>

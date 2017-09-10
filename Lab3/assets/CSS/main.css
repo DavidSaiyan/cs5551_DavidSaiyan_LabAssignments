@@ -21,6 +21,12 @@
     margin: 20px;
     align-content: left;
 }
+
+.avatar_img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
 .error {
     color: red;
 }
@@ -53,6 +59,12 @@
     height: 720px;
 }
 
+.border_round{
+    margin-top: 100px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 5px;
+}
 
 .weatherModule {
     background:#f2f2f2;
