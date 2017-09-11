@@ -1,8 +1,9 @@
 <div class="row menu_row">
-    <div class="col-md-1" ng-repeat="item in menuItems">
+    <div class="col-md-4" style="margin-left:20px;"> Youtube Trends and Translations!</div>
+    <!--<div class="col-md-1" ng-repeat="item in menuItems">
         <button class="btn btn-primary menu_item"  ng-click="navigate(item.Url)">{{item.Text}}</button>
-    </div>
-    <div class="col-md-6"></div>
+    </div>-->
+    <div class="col-md-4"></div>
     <div class="col-md-2" ng-if="loggedIn"> Hello, {{getFullName()}} <img class="avatar_img" ng-src="{{userAvatar}}"/></div>
     <button type="button" class="col-md-1 btn btn-default" ng-if="loggedIn" ng-click="signOut()"> Sign Out?</button>
     <div class="col-md-1"></div>

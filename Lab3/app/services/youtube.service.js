@@ -14,7 +14,7 @@
         return factory;
 
          function SearchYoutube(text) {
-             $http.get('https://www.googleapis.com/youtube/v3/search', {
+             return $http.get('https://www.googleapis.com/youtube/v3/search', {
                  params: {
                      key: apiKey,
                      type: 'video',
@@ -25,7 +25,6 @@
                      q: text
                  }
              }).then(function(response) {
-                 console.log(response);
                  if (response.data.items.length === 0) {
                      return 'The search did not return any results'
                  }else{

@@ -22,10 +22,37 @@
     align-content: left;
 }
 
+.search_box{
+    width:100%;
+}
 .avatar_img{
     height: 30px;
     width: 30px;
     margin-left: 10px;
+}
+
+.youtube_search{
+    align-content: center;
+}
+
+.title_name{
+    font-weight:bold;
+    color: midnightblue;
+    margin: 10px 10px 5px 10px;
+}
+
+.youtube_description{
+    margin-left: 25px;
+}
+.youtube_thumbnail{
+    height: 75px;
+    width: 100px;
+    margin-left: 25px;
+    border: solid;
+}
+
+.margin-bottom{
+    margin-bottom:10px;
 }
 .error {
     color: red;
