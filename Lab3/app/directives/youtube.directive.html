@@ -1,7 +1,7 @@
 <div class="col-md-12">
     <div class="row login-spacing">
         <div class="col-md-4">
-            <input class="search_box" type="text" ng-model="searchText" ng-change="search(searchText)" ng-model-options="{debounce: 250}" placeholder="Type text to search youtube"/>
+            <input class="search_box form-control" type="text" ng-model="searchText" ng-change="search(searchText)" ng-model-options="{debounce: 250}" placeholder="Type text to search youtube"/>
         </div>
         <div class="col-md-6"> Translate To: <select ng-change="search(searchText)" ng-model="selectedLanguage" ng-options="lang.language for lang in languageOptions"></select></div>
     </div>
