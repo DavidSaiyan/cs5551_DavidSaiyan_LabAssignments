@@ -65,6 +65,9 @@
     color: red;
 }
 
+.social-font-size{
+    font-size: 16px;
+}
 .map_text {
     margin: 24px;
     font-size: 23px;
@@ -87,9 +90,9 @@
 .menu_row {
     padding-top: 10px;
     height: 55px;
-    background-color: black;
+    background-color: #242B38;
     color: white;
-    font-family: Verdana;
+    font-family: Raleway;
     font-weight: bolder;
     font-size: 20px;
 }

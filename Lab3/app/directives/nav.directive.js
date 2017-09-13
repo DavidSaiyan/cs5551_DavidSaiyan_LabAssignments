@@ -53,11 +53,6 @@
                 //scope.email = localStore.getItem("UserAvatar");
             }
 
-            scope.menuItems = [
-                {Text:  'Home',     Url: 'home'},
-                {Text:  'Main',     Url: 'main'}];
-
-
             scope.navigate = function(page){
                 $window.location.href = baseUrl+page;
             }
