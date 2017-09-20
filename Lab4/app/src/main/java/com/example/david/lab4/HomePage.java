@@ -10,16 +10,21 @@ public class HomePage {
 
     private String _name = "David Saiyan";
     private String _profileType = "Facebook";
+    private String _translatedText = "Facebook";
 
     public HomePage (LoginResult loginResult){
         _name = loginResult.toString();
         _profileType = "Facebook";
 
-        GetMapsApiRequest();
+        LoadView();
     }
 
-    private void GetMapsApiRequest(){
-        //To do
+    private void MakeTranslationRequest(String text, String language){
+        //HttpResponse response = http.get("https://translate.yandex.net/api/v1.5/tr.json/translate?" + "key" + apiKey + "&text=" + text + "&lang=" + language)
 
+    }
+
+    private void UpdateTranslation(response){
+		_translatedText = response["data"].text;
     }
 }
