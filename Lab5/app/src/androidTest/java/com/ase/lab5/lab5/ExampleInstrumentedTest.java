@@ -1,4 +1,4 @@
-package com.ase.lab4.lab5;
+package com.ase.lab5.lab5;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

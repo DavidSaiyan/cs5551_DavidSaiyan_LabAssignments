@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab 5 - David Saiyan</string>
+    <string name="app_name">Lab4</string>
     <string name="facebook_app_id">266289193576013</string>
     <string name="fb_login_protocol_scheme">fb266289193576013</string>
 </resources>

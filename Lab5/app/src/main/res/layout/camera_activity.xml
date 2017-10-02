@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ase.lab5.lab5.CameraActivity">
+
+    <ImageView
+        android:id="@+id/view_photo"
+        android:layout_width="260dp"
+        android:layout_height="374dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btn_photo_home"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_analyze_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="analyzePhoto"
+        android:text="Analyze"
+        android:layout_marginEnd="22dp"
+        android:layout_below="@+id/view_photo"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callCamera"
+        android:text="Take photo"
+        android:layout_below="@+id/view_photo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btn_photo_home"
+        android:layout_marginBottom="29dp"
+        android:onClick="redirectToHome"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
