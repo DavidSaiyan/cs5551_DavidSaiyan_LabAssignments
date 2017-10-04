@@ -1,18 +1,31 @@
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
+      <ion-title>Lab 6 - David Saiyan </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content padding class="body-wrap" >
+  <h3> Google Knowledge Search </h3>
+  <div class="row">
+      <ion-col col-6>
+        <div><input ion-item style="width:100%;" [(ngModel)]="query"></div>
+      </ion-col>
+      <ion-col col-6>
+        <div><button ion-button primary style="width:250px;" (click)="searchGoogle();">Search</button></div>
+      </ion-col>
+  </div>
+  <div class="row">
+    <ion-col col-6>
+      <button ion-item *ngFor="let item of response" (click)="itemTapped($event, item)">
+        <div class="row">
+        <div class="col col-30" >{{item.result.name}} </div> <div class="col col-70"> the {{item.result.description}}  </div>
+        </div>
+      </button>
+    </ion-col>
+    <ion-col col-6>
+      <div ion-item *ngFor="let item of secondResponse">
+        <div [innerHtml]="item.htmlTitle"></div>
+      </div>
+    </ion-col>
+  </div>
 </ion-content>
