@@ -22,9 +22,15 @@
 
 .body-wrap{
   background-color:white;
-  margin-left: 250px;
   max-width: 1200px;
   color: black;
+  padding:20px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .scroll-bar-indicator
