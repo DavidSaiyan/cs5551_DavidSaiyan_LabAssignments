@@ -1,0 +1,137 @@
+﻿/* Page Header */
+.sign_out {
+    margin-right: 20px;
+}
+.login_box {
+    align-content: center;
+    margin-left: 40%;
+    margin-top:100px;
+}
+.menu_item {
+    width: 100%;
+    align-content: center;
+    margin-left: 10px;
+}
+.login_buttons{
+    width: 150px;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login-spacing{
+    margin: 20px;
+    align-content: left;
+}
+
+.register-text{
+    margin:20px;
+    align-content: center;
+    text-align: center;
+}
+
+.search_box{
+    width:100%;
+}
+.avatar_img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.youtube_search{
+    align-content: center;
+}
+
+.title_name{
+    font-weight:bold;
+    color: midnightblue;
+    margin: 10px 10px 5px 10px;
+}
+
+.youtube_description{
+    margin-left: 25px;
+}
+.youtube_thumbnail{
+    height: 75px;
+    width: 100px;
+    margin-left: 25px;
+    border: solid;
+}
+
+.margin-bottom{
+    margin-bottom:10px;
+}
+.error {
+    color: red;
+}
+
+.social-font-size{
+    font-size: 16px;
+}
+.map_text {
+    margin: 24px;
+    font-size: 23px;
+    font-weight: bolder;
+    color: dodgerblue;
+}
+
+.centered {
+    align-content: center;
+}
+
+.margin{
+    margin: 20px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.menu_row {
+    padding-top: 10px;
+    height: 55px;
+    background-color: #242B38;
+    color: white;
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.map-canvas {
+    width: 1280px;
+    height: 720px;
+}
+
+.border_round{
+    margin-top: 100px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.weatherModule {
+    background:#f2f2f2;
+    height:150px;
+    width:250px;
+    border: 1px dashed #ccc;
+    padding: 1em;
+}
+
+
+.currentConditions {
+    float: left;
+}
+.weatherModule {
+    padding: 1em;
+}
+
+.currentIcon {
+    float: left;
+    margin: 0 .75em;
+}
+
+span{ float:right; }
+
+#cash_flow, #cr{ color: #2F705c; }
+
+#dr{ color: #FF0000; }
