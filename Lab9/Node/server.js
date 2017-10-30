@@ -54,13 +54,7 @@ router.get('/lab9/food', function(req, res){
 })
 
 router.get('/yelp/:terms/:language', function(req, res) {
-    // translateSearch.Search(req.params.word).then(
-    //     function (response) {
-    //         console.log(response);
-    //     }, function (error) {
-    //         res.send(error);
-    //     }
-    // );
+    res.json({message: "yelp endpoint"});
 });
 
 router.get('/', function(req, res) {
