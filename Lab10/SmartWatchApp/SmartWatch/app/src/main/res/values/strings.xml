@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmartWatch</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Lab 10 Application!</string>
+    <string name="facebook_app_id">266289193576013</string>
+    <string name="fb_login_protocol_scheme">fb266289193576013</string>
+</resources>
